@@ -1,14 +1,94 @@
-<p>
-  Howdy! Here's a list of awesome computer scientists.
-  Do you know any others? Add to the list yourself.
-</p>
+<div class="bgtrade" > </div>
+<div>
 
-<form (submit)="addName()">
-  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
-  <button type="submit">Add</button>
-</form>
+    <input type="text" class="searchInput"/> <img src="assets/search.png" class="searchIcon" />
+
+    <img src="assets/filter.png" class="searchIcon" />
+</div>
+
+<div class="sortTrade">
+    sort by
+    <select>
+        <option>CP</option>
+        <option>Name</option>
+        <option>Date</option>
+    </select>
+</div>
+        <!--
+        <div class="pvgListitem">
+
+            <div class="pvgArenaLvl"  style="background-color:yellow">10</div>
+            <div class="pvgTitle">Bicepcs Gym come if ur big enough!</div>
+            <div class="dateAdded">10min ago</div>
+
+        </div>
+             -->
 
 
-<ul>
-  <li *ngFor="let name of names">{{name}}</li>
-</ul>
+        <div class="tradeitem">
+
+            <div class="tradeCP">1330 CP</div>
+            <div class="tradeTitle">
+                <div class="tradeOffer">
+                    <img src="assets/offer.png" class="offerIco" />
+
+                    <div class="tradeitemTxt">Arkani good IV firestorm </div>
+                </div>
+
+
+                <div class="tradeNeed">
+                    <img src="assets/need.png" class="needIco" />
+
+                    <div class="tradeitemTxt">Dratini </div>
+                </div>
+            </div>
+
+            <div class="dateAdded">10min ago</div>
+
+        </div>
+
+
+
+
+        <div class="tradeitem">
+
+            <div class="tradeCP">1330 CP</div>
+            <div class="tradeTitle">
+                <div class="tradeOffer">
+                    <img src="assets/offer.png" class="offerIco" />
+
+                    <div class="tradeitemTxt">Arkani good IV firestorm </div>
+                </div>
+
+
+                <div class="tradeNeed">
+                    <img src="assets/need.png" class="needIco" />
+
+                    <div class="tradeitemTxt">geodude, Machop, pickachu aspdk aüsdf küa </div>
+                </div>
+            </div>
+
+            <div class="dateAdded">10min ago</div>
+
+        </div>
+        <div class="tradeitem">
+
+            <div class="tradeCP">1330 CP</div>
+            <div class="tradeTitle">
+                <div class="tradeOffer">
+                    <img src="assets/offer.png" class="offerIco" />
+
+                    <div class="tradeitemTxt">Arkani good IV firestorm </div>
+                </div>
+
+
+                <div class="tradeNeed">
+                    <img src="assets/need.png" class="needIco" />
+
+                    <div class="tradeitemTxt">geodude, Machop, pickachu aspdk aüsdf küa </div>
+                </div>
+            </div>
+
+            <div class="dateAdded">10min ago</div>
+
+        </div>
