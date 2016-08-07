@@ -77,14 +77,30 @@ ul {
 }
 
 .bgtrade{
-position: absolute;
-    z-index: -1;
-    opacity: 0.1;
-    background-size: cover;
-    background-image: url('assets/bg.png');
+    position: absolute;
+    z-index: -2;
+    opacity: 0.6;
+    
     width: 100%;
-    height: 100%;
+    height: 1000px;
+    text-align: center;
+background: #44b590; /* Old browsers */
+background: -moz-linear-gradient(top,  #44b590 1%, #5ec5bc 44%, #7bdca6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #44b590 1%,#5ec5bc 44%,#7bdca6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #44b590 1%,#5ec5bc 44%,#7bdca6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44b590', endColorstr='#7bdca6',GradientType=0 ); /* IE6-9 */
+
 }
+
+.boxPanel {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    opacity: 0.5;
+}
+
 .tradeCP{
 display: inline-block;
     padding: 8px;
@@ -127,4 +143,10 @@ display: inline-block;
     display: inline-block;
     width: 27px;
     border-radius: 5px;
+}
+
+.contentTrade {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
 }
